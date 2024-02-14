@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "1360adb8-3c41-47f1-aab4-3c99df2b806d",
+		"name": "Postman API Creation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30172850"
+	},
+	"item": [
+		{
+			"name": "Get Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/users",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
